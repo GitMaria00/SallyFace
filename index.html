@@ -8,27 +8,31 @@
       margin: 0;
       padding: 0;
 
-      background-image: url("mask.png"); /* your wallpaper */
-      background-size: cover;          /* fills the screen */
-      background-position: center;     /* centers image */
-      background-repeat: no-repeat;
-      background-attachment: fixed;    /* stays fixed when scrolling */
-
+      background-color: black
       color: white;                    /* readable text */
+      
       font-family: Arial, Helvetica, sans-serif;
     }
 
     .content {
       text-align: center;
       padding-top: 60px;
-      text-shadow: 2px 2px 4px black;  /* helps text stand out */
+    }
+
+    .header-image {
+      max-width: 300px;   /* controls image size */
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px; /* space between image and title */
     }
   </style>
-  
-    </head>
+  </head>
 
 <body>
   <div class="content">
+
+<img src="mask.png" alt="Sally Face image" class="header-image">
+    
     <h2>A Study of <i>Sally Face</i> By Steve Gabry: The Unmasking</h2>
 
     <p>
