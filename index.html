@@ -5,40 +5,56 @@
   <title>A Study of Sally Face</title>
 
   <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background-color: black;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
+    @font-face {
+      font-family: "Boopee";
+      src: url("./fonts/Boopee-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
     }
 
-    .content {
+    
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 40px;
       text-align: center;
-      padding-top: 40px;
+      font-family: "Boopee", Arial, sans-serif;
     }
 
     img {
       max-width: 300px;
-      width: 80%;
-      height: auto;
       margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 2.3rem;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 6px black;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
     }
   </style>
 </head>
 
 <body>
-  <div class="content">
-    <img src="mask.png" alt="Sally Face image">
 
-    <h2>A Study of <i>Sally Face</i> By Steve Gabry: The Unmasking</h2>
+  <img src="mask.png" alt="Sally Face image">
 
-    <p>
-      This game deals with triggering, graphic content such as violence, gore,
-      death, suicide, and many more. Please be cautious if you want to check the
-      game for yourself!
-    </p>
-  </div>
+  <h2>A Study of <i>Sally Face</i> By Steve Gabry: The Unmasking</h2>
+
+  <p>
+    This game deals with triggering, graphic content such as violence, gore,
+    death, suicide, and many more. Please be cautious if you want to check the
+    game for yourself!
+  </p>
+
 </body>
 </html>
 
